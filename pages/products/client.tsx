@@ -24,7 +24,7 @@ export default function ProductsListPage() {
         <title>Products List</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Products List</h1>
+      <h1>Products List (Client Side Rendering)</h1>
       {isLoading ? (
         <div>loading...</div>
       ) : isError ? (
